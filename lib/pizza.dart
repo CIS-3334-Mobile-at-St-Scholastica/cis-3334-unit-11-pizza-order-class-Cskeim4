@@ -1,5 +1,3 @@
-
-
 class Pizza {
   String _topping;
   double _price;

@@ -42,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     showDialog(
         context: context,
         builder: (context) {
+          //Call the separate class for the widget
           return AddPizzaDialog1();
         }
     );

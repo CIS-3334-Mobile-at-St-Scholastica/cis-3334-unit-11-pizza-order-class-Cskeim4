@@ -1,9 +1,9 @@
-
-//Stateful widget shortcut, class and state, put code in the state object
 import 'package:flutter/material.dart';
-
 import 'pizza.dart';
 
+//Class for the dialog widget
+
+//Stateful widget shortcut, class and state, put code in the state object
 class AddPizzaDialog1 extends StatefulWidget {
   @override
   _AddPizzaDialog1State createState() => _AddPizzaDialog1State();
@@ -11,6 +11,7 @@ class AddPizzaDialog1 extends StatefulWidget {
 
 class _AddPizzaDialog1State extends State<AddPizzaDialog1> {
 
+  //Initialize variables locally
   final pizzaToppingTextField = TextEditingController();
   int _sizeSelected = 1;
 
